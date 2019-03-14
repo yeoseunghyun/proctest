@@ -1,3 +1,4 @@
+
 obj-m   := procyeo14.o
 KDIR    :=      /lib/modules/$(shell uname -r)/build
 PWD     :=      $(shell pwd)
@@ -11,3 +12,4 @@ clean:
 	rm      -rf .tmp_versions
 	rm	-rf Module.*
 	rm	-rf modules.*
+	rm	-rf .cache.mk
