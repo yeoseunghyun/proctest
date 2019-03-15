@@ -1,4 +1,4 @@
-
+CONFIG_MODULE_SIG=n
 obj-m   := procyeo14.o
 KDIR    :=      /lib/modules/$(shell uname -r)/build
 PWD     :=      $(shell pwd)
